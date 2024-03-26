@@ -43,11 +43,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.ramesh.composepractice.learnConstraintLayout.LearnConstrainLayouts
-import com.ramesh.composepractice.learnConstraintLayout.LearnConstrainLayoutsWithChains
-import com.ramesh.composepractice.learnList.LearnLazyColumn
-import com.ramesh.composepractice.learnList.LearnLazyRow
-import com.ramesh.composepractice.learnList.LearnList
+import com.ramesh.composepractice.learnnavigationComponent.DisplayNavComponent
 import com.ramesh.composepractice.ui.theme.ComposePracticeTheme
 import com.ramesh.composepractice.ui.theme.Green
 
@@ -66,7 +62,7 @@ class MainActivity : ComponentActivity() {
                     for (i in 0..50) {
                         list.add("List Item $i")
                     }
-                    LearnConstrainLayoutsWithChains()
+                    DisplayNavComponent()
                 }
             }
         }
